@@ -13,7 +13,9 @@ app.get("/api/notes", function(req, res) {
 });
 
 
-app.get("/")
+app.get("*", function(req, res) {
+    res.sendFile(path.join(mainDir, "index.html"));
+})
 
 
 app.post("/api/notes", function(req, res) {
