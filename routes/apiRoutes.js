@@ -2,28 +2,18 @@
 const db = require("../db/db.json");
 const fs = require("fs");
 
+// ROUTING
 module.exports = function(app) {
     // displays info from user writing notes onto page.  this code block returns a JSON form in array of objects.
-    // json sends over a type of object (can be an array or any object you want to send, its seen then strinify'ed)
+    // json sends over a type of object (can be an array or any object you want to send, its seen, then strinify'ed)
     app.get("/api/notes", function(req, res) {
-        res.sendFile(path.join(__dirname, "../db/db.json"));
-    });
-
-    app.get("/api/notes/:id", function(req, res) {
-        let savedNotes = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
-        res.json(notes);
+        res.json(dbData);
     });
 
     app.post("/api/notes", function(req, res) {
         // Receives a new note, adds it to db.json, then returns the new note
-        let newNote = req.body;
-        notes.push(newNote);
-        updateDb();
-        return console.log("Added new note: " + newNote.title);
-    });
-
-    app.post("/api/notes", function(req, res) {
-        res.json(db);
+        dbData.push(req.body);
+        res.json("Saved")
     });
 
     app.delete("/api/notes:id", function (req, res) {
