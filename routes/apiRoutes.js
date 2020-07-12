@@ -40,7 +40,6 @@ module.exports = function(app) {
 
 
 }
-// * The following API routes should be created:
 
 //   * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
 
