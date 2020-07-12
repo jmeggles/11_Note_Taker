@@ -19,7 +19,7 @@ module.exports = function(app) {
         let newNote = req.body;
         notes.push(newNote);
         updateDb();
-        return console.log("Added new note: "+newNote.title);
+        return console.log("Added new note: " + newNote.title);
     });
 
     app.post("/api/notes", function(req, res) {
