@@ -4,21 +4,22 @@ const fs = require("fs");
 
 // ROUTING
 module.exports = function(app) {
-    // displays info from user writing notes onto page.  this code block returns a JSON form in array of objects.
+    // GET...displays info from user writing notes onto page.  this code block returns a JSON form in array of objects.
     // json sends over a type of object (can be an array or any object you want to send, its seen, then strinify'ed)
     app.get("/api/notes", function(req, res) {
         res.json(dbData);
     });
-
+    
+    // POST...recieves a new note, saves it to db.json file
     app.post("/api/notes", function(req, res) {
-        // Receives a new note, adds it to db.json, then returns the new note
-        dbData.push(req.body);
+        saveNote.push(req.body);
         res.json("Saved")
     });
 
+    // DELETE...deletes the note
     app.delete("/api/notes:id", function (req, res) {
         notesData = getNotes()
-    })
+    });
 
     //when a note is added or deleted, this updates the json file 
     function updateDb() {
@@ -26,9 +27,7 @@ module.exports = function(app) {
             if (err) throw err;
             return true;
         });
-}
-
-
+    }
 }
 
 //   * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
