@@ -1,4 +1,4 @@
-// DEPENEDENCY...npm pkg called express to give server functionality.
+// DEPENDENCY...npm pkg called express to give server functionality.
 const express = require("express");
 
 // CONFIG....tells node that we are creating an express server.
