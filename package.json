@@ -4,6 +4,7 @@
   "description": "An application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.",
   "main": "server.js",
   "scripts": {
+    "watch": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
@@ -12,7 +13,9 @@
   "dependencies": {
     "express": "^4.17.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jmeggles/11_Note_Taker.git"

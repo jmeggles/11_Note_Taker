@@ -16,4 +16,4 @@ require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
 
 // LISTENER...starts the server
-app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
+app.listen(PORT, () => console.log(`I'm rockin' n rollin' on port ": + ${PORT}`));
