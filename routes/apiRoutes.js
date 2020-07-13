@@ -7,27 +7,46 @@ module.exports = (app) => {
     // GET...displays info from user writing notes onto page.  this code block returns a JSON form in array of objects.
     // json sends over a type of object (can be an array or any object you want to send, its seen, then strinify'ed)
     app.get("/api/notes", (req, res) => {
-        res.json(db);
+        fs.readFile("db/db.json", "utf-8", (err, data) => {
+            res.json(JSON.parse(data));
+        })
     });
     
-    // POST...recieves a new note, saves it to db.json file
-    app.post("/api/notes", (req, res) => {
-        saveNote.push(req.body);
-        res.json("Saved")
+    // POST...saves it to db.json file
+    app.post("/api/notes:id", (req, res) => {
+        noteData.push(req.body);
+        fs.writeFileSync("db/db.json", JSON.stringify(noteData), "utf8");
+        res.json(true);
+    });
+
+    // GETS...saved note 
+    app.get("/api/notes", (req, res) => {
+        res.json(notes[req.params.id]);
     });
 
     // DELETE...deletes the note
     app.delete("/api/notes:id", (req, res) => {
-        notesData = getNotes()
+ 
+        const uniqueId = req.params.id;
+            let note = noteData.filter(note => {
+                return note.id === requestID;
+            })[0];
+
+            const index = noteData.indexOf(note);
+
+            noteData.splice(index, 1);
+
+            fs.writeFileSync('db/db.json', JSON.stringify(noteData), 'utf8');
+            res.json("Deleted!!");
     });
 
     //when a note is added or deleted, this updates the json file 
-    function updateDb() {
-        fs.writeFile("db/db.json",JSON.stringify(notes,'\t'),err => {
-            if (err) throw err;
-            return true;
-        });
-    }
+    // function updateDb() {
+    //     fs.writeFile("db/db.json",JSON.stringify(notes,'\t'),err => {
+    //         if (err) throw err;
+    //         return true;
+    //     });
+    // }
 }
 
 //   * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
