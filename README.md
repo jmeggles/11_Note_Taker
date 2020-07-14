@@ -37,7 +37,8 @@
   ## Installation 
   ![npm](https://img.shields.io/npm/v/npm?color=pink&style=plastic) 
   - Heroku
-  - Node express
+  - Npm Express
+  - Node.js 
   - HTML
   - CSS
   - JavaScript
@@ -57,7 +58,7 @@
   John Dinsmore, Jorge Alvarez, Ben Benson WebDev Tutoring, W3 Schools (https://www.w3schools.com/js/), Mozilla (https://developer.mozilla.org/en-US/).
 
   ## Tests
-  No pre-work testing was done with this application. However, nodemon and console logs were often used to be sure lines of code were executing correctly.  
+  No pre-work testing was done with this application. However, nodemon, Postman, and console logs were often used to be sure lines of code were executing correctly.  
 
   ## Contribute
   Yes. Commit or comment to the project in github.
