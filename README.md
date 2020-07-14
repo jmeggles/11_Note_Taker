@@ -1,4 +1,4 @@
-# Project Name ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=lightgrey) ![David](https://img.shields.io/david/dev/expressjs/express?color=pink&style=plastic)
+# Project Name ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=lightgrey&style=plastic) ![David](https://img.shields.io/david/dev/expressjs/express?color=pink&style=plastic)
  Note Taker
 
   ## Overview 
