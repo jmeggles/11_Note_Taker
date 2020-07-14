@@ -21,7 +21,8 @@
 
  ## Screenshots_and_GIFs 
  First vid shows this deployed with Herkou while screenshots show local host accessibility. 
-  - ![Short vid of deployed project](./public/assets/images/clip1.mov) 
+  - ![Short vid of deployed project](https://giphy.com/gifs/fr40Y8f2QGziXFeWlz) 
+  - ![Short vid of deployed project](https://media.giphy.com/media/fr40Y8f2QGziXFeWlz/giphy.gif) 
   - ![Screenshot of deployed project](./public/assets/images/screenshot.png) 
   - ![Screenshot of deployed project](./public/assets/images/screenshot1.png)  
   - ![Screenshot of deployed project](./public/assets/images/screenshot2.png)
