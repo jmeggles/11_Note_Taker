@@ -35,7 +35,8 @@
   JavaScript
   
   ## How_to_use
-  This application can be used through Heroku https://note-taker-jme.herokuapp.com/).
+  This application can be used through Heroku https://note-taker-jme.herokuapp.com/) but can also be accessed by cloning this app from GitHub and using local host 5000 in your server and running node server,js in the terminal. 
+  Begin application by clicking the Get Started button on the first page. Write a title for the note in the bold text line and the note test below it.  To save, click the save icon in the upper right corner (icon appears after note has been started).  To begin a new note click the pencil in the upper right corner.  To view notes, as they are saved they will appear in the left clumn and can be clicked on to view entire note, or to delete click the trash icon next to that note.  All notes will be saved until deleted even when you come back to the app after closing or refreshing!
 
   ## Benefit
   Anyone who needs to be more organized or is forgetful will benefit greatly from this Note Taker app but it works well for everyone!
@@ -47,7 +48,7 @@
   John Dinsmore, Jorge Alvarez, Ben Benson WebDev Tutoring, W3 Schools (https://www.w3schools.com/js/), Mozilla (https://developer.mozilla.org/en-US/).
 
   ## Tests
-  No pre-work testing was done with this application however, console logs were often used to be sure lines of code were executing correctly.  
+  No pre-work testing was done with this application. However, nodemon and console logs were often used to be sure lines of code were executing correctly.  
 
   ## Contribute
   Yes. Commit or comment to the project in github.
