@@ -21,8 +21,10 @@
 
  ## Screenshots_and_GIFs 
   - ![Short vid of deployed readme project](https://media.giphy.com/media)
-  - ![Screenshot of deployed project](./assets/images/screenshot1.png)  
-  - ![Screenshot of deployed project](./assets/images/screenshot2.png)
+  - ![Screenshot of deployed project](../public/assets/images/screenshot1.png)  
+  - ![Screenshot of deployed project](../public/assets/images/screenshot2.png)
+  - ![Screenshot of deployed project](../public/assets/images/screenshot3.png)  
+  - ![Screenshot of deployed project](../public/assets/images/screenshot4.png)
   
   ## Motivation
   Note Taker is to help keep us be organized and remember to do half the stuff we forget to do.  I tend to make lists for things that need to be done around the house...  "Fix this now, fix that later, replace this soon, get this at the store, look into that at some point", etc.  I can't remeber it all so the Note Taker is the best way to keep those lists, ideas (or chores) in one place to come back to for future reference.      
