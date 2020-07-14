@@ -18,6 +18,7 @@
  ## Links
   - (https://jmeggles.github.io/11_Note_Taker/)
   - (https://github.com/jmeggles/11_Note_Taker)
+  - (https://note-taker-jme.herokuapp.com/)
 
  ## Screenshots_and_GIFs 
  First vid shows this deployed with Herkou while screenshots show local host accessibility. 
