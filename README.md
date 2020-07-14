@@ -20,7 +20,8 @@
   - (https://github.com/jmeggles/11_Note_Taker)
 
  ## Screenshots_and_GIFs 
-  - ![Short vid of deployed readme project](https://media.giphy.com/media)
+ First vid shows this deployed with Herkou while screenshots show local host accessibility. 
+  - ![Short vid of deployed project](./public/assets/images/clip1.mov) 
   - ![Screenshot of deployed project](./public/assets/images/screenshot.png) 
   - ![Screenshot of deployed project](./public/assets/images/screenshot1.png)  
   - ![Screenshot of deployed project](./public/assets/images/screenshot2.png)
