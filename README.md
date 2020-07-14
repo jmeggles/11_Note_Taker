@@ -2,7 +2,7 @@
  Note Taker
 
   ## Overview 
-  An application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.  Need help remembering what you need to do?  This is the app for you!
+  An application that can be used to write, save, and delete notes deployed with Heroku (or on localhost). This application will use an express backend and save and retrieve note data from a JSON file.  Need help remembering what you need to do?  This is the app for you!
 
   ## Table of Contents:
   - [Links](#Links)
@@ -21,6 +21,7 @@
 
  ## Screenshots_and_GIFs 
   - ![Short vid of deployed readme project](https://media.giphy.com/media)
+  - ![Screenshot of deployed project](./public/assets/images/screenshot.png) 
   - ![Screenshot of deployed project](./public/assets/images/screenshot1.png)  
   - ![Screenshot of deployed project](./public/assets/images/screenshot2.png)
   - ![Screenshot of deployed project](./public/assets/images/screenshot3.png)  
