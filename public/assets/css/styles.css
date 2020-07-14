@@ -29,6 +29,10 @@ html, body {
   padding-top: 15px;
 }
 
+h1, h4 {
+  font-style: italic;
+}
+
 .note-title {
   height: 50px;
   margin-top: 13px;
