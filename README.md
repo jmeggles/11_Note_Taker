@@ -1,4 +1,4 @@
-# Project Name ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=lightgrey&style=plastic) ![David](https://img.shields.io/david/dev/expressjs/express?color=pink&style=plastic)
+# Project Name ![GitHub deployments](https://img.shields.io/github/deployments/badges/shields/shields-staging?color=green&style=plastic) ![David](https://img.shields.io/david/dev/expressjs/express?color=pink&style=plastic)
  Note Taker
 
   ## Overview 
@@ -16,8 +16,8 @@
   - [Contribute](#Contribute)
 
  ## Links
-  - (https://jmeggles.github.io/11_Note_Taker/)
-  - (https://github.com/jmeggles/11_Note_Taker)
+  - (https://jmeggles.github.io/Note_Taker/)
+  - (https://github.com/jmeggles/Note_Taker)
   - (https://note-taker-jme.herokuapp.com/)
 
  ## Screenshots_and_GIFs 
